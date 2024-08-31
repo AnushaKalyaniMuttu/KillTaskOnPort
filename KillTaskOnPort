@@ -1,0 +1,6 @@
+lsof -i: 8080
+
+kill -9 pid
+
+// pid you can find from first command 
+// this can be used when we get erroe like port already in use
